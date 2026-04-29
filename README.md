@@ -11,19 +11,12 @@ Walks you through adding a new Telegram bot agent to OpenClaw — collecting the
 ### Manually
 
 ```bash
-git clone https://github.com/gaoxiaowei2117/openclaw-add-agent.git ~/.claude/skills/openclaw-add-agent
-```
-
-### From GitHub
-
-```bash
-# If you have claude-code CLI
-claude skill install gaoxiaowei2117/openclaw-add-agent
+git clone https://github.com/gaoxiaowei2117/openclaw-add-agent.git ~/skills/openclaw-add-agent
 ```
 
 ## Usage
 
-After installation, just tell your agent:
+After installation, tell your OpenClaw agent:
 
 - "add a new agent"
 - "add a Telegram bot"
@@ -36,7 +29,7 @@ The agent will ask for:
 4. **Allow users** — Telegram user IDs that can access this bot
 
 Then it will:
-- Update `/home/xgao/.openclaw/openclaw.json`
+- Update `~/.openclaw/openclaw.json`
 - Create the workspace directory
 - Ask if you need memory isolation
 
