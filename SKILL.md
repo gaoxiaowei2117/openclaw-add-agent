@@ -1,6 +1,7 @@
 ---
 name: openclaw-add-agent
 description: "Add a new agent to OpenClaw configuration. Use when user wants to add a new Telegram bot agent to OpenClaw. Triggers: add agent, new agent, bind telegram."
+metadata: {"clawdbot":{"emoji":"🤖","requires":{},"install":[]}}
 ---
 
 # Add Agent to OpenClaw
