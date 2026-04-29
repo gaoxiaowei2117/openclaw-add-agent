@@ -16,7 +16,15 @@ openclaw skills install openclaw-add-agent
 
 ### Prompt
 
-Add a new Telegram bot agent to my OpenClaw config. Collect the bot token from the user, set up the agent ID and name, update openclaw.json with the agent entry, binding, and telegram account config, create the workspace directory, and ask if they need memory isolation. Finally tell them to run `openclaw restart`.
+```
+Install the skill "openclaw-add-agent" (gaoxiaowei2117/openclaw-add-agent) from GitHub.
+Skill page: https://github.com/gaoxiaowei2117/openclaw-add-agent
+Keep the work scoped to this skill only.
+After install, inspect the skill metadata and help me finish setup.
+Required binaries: none
+Use only the metadata you can verify from the repository; do not invent missing requirements.
+Ask before making any broader environment changes.
+```
 
 ### Manually
 
