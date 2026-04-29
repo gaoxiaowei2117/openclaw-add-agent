@@ -8,6 +8,16 @@ Walks you through adding a new Telegram bot agent to OpenClaw — collecting the
 
 ## Installation
 
+### OpenClaw CLI
+
+```bash
+openclaw skills install openclaw-add-agent
+```
+
+### Prompt
+
+Add a new Telegram bot agent to my OpenClaw config. Collect the bot token from the user, set up the agent ID and name, update openclaw.json with the agent entry, binding, and telegram account config, create the workspace directory, and ask if they need memory isolation. Finally tell them to run `openclaw restart`.
+
 ### Manually
 
 ```bash
