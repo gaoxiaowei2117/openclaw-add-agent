@@ -8,12 +8,6 @@ Walks you through adding a new Telegram bot agent to OpenClaw — collecting the
 
 ## Installation
 
-### OpenClaw CLI
-
-```bash
-openclaw skills install openclaw-add-agent
-```
-
 ### Prompt
 
 ```
